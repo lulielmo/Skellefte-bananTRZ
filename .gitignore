@@ -218,3 +218,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Skellefteåbanan: lokala geodata och genererade resultat
+/source-data/*
+!/source-data/README.md
+/generated/*
+!/generated/README.md
+
+# Lokala temporära filer och verktygscache
+/tmp/
+/.cache/
+*.blend1
+*.blend2
+.DS_Store
+Thumbs.db
